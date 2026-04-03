@@ -4,15 +4,14 @@ Uses keys to set a time in seconds, press go to start the exposure.
 This is a plan for a timer for alt printing. In this case a regular photographic timer has too short an exposure time, so I've set up an arduino with a 1602 LCD and a relay to turn on a 12v led light.
 Due to cut corners, and my having realised that cutting said corners actually made more sense than setting minutes and hours it is all in seconds. It will reliably give accurate times from one second to about a million seconds. (actually 0-999,999).
 
-![TimerRelay](https://github.com/user-attachments/assets/2e7a3578-e1aa-42be-9620-ac67dbf23bb7)
-
+![20260402_135725](https://github.com/user-attachments/assets/9dd0d299-1f2e-4298-9d5c-bf6fa22b0f9a)
 
 I decided to use keyboard keys as I had them handy, they are functionally just regular momentary switches though. The project box was just something I had lying about. 
 The way it works right now is:
 When I flick the set/run switch to 'Set' it runs a loop allowing keystrokes on the numbers keys so I can enter a time of 0-9 for each key (single seconds, tens of seconds, hundreds, etc) with the numbers set to roll over to 0 in the case they go over or under 0-9. Reset will set all numbers to 0 (doesn't reset the arduino).
 When I've set the number I want for an exposure I flick the 'Set/Run' switch to 'Run' - At this point pressing 'go' will turn on the relay (allowing 12v to the LED strips) and then will count down to zero before switching off again and resetting the loop to go again. If 'Go' or 'Reset' is pressed while the light is running it'll just turn off the relay and reset the number to 0.
 
-![TimerRelay](https://github.com/user-attachments/assets/7c80acc6-130b-4939-87f4-540a935dfb9c)
+![TimerRelay](https://github.com/user-attachments/assets/2e7a3578-e1aa-42be-9620-ac67dbf23bb7)
 
 I haven't labelled keys in the fritzing but all it's pretty obvious which keys are which if you read the code. 
 
