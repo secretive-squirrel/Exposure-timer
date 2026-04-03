@@ -22,7 +22,7 @@ LCD_I2C lcd(0x27, 16, 2);   // I2C LCD, change according to needs
 long SetTime = 0;           // The time that will be displayed on the LCD
 long ElaTime = 0;           // The time that is used for the timer countdown
 
-byte RelayGo = 2;           // the PWM pin the LED is attached to
+byte RelayGo = 2;           // the digital pin the relay is attached to
 
 byte HourTen = 8;           // Place keepers for the switch data
 byte HourOne = 7;
