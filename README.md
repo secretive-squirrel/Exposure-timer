@@ -22,3 +22,5 @@ I'm using an i2c hat on the LCD, hence the four wires (I couldn't be bothered fi
 Ignoring the fact that this thing is a bit of a rat nest of wires on the inside, this is about the simplest exposure timer that I could make which will do everything I _need_ to have in an exposure timer. It would be more elegant to make a circuit board, but as a sheild it's OK and I should probably do something more elegant with the functionality of the 'Go/Pause' button, but for now this is fine. 
 
 I may come back to making it more elegant but there's every chance this will turn into a permanent _temporary_ fix.
+
+Other stuff I'm doing on my blog https://secretivesquirrel.wordpress.com
