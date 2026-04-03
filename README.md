@@ -14,7 +14,7 @@ When I've set the number I want for an exposure I flick the 'Set/Run' switch to 
 
 ![TimerRelay](https://github.com/user-attachments/assets/7c80acc6-130b-4939-87f4-540a935dfb9c)
 
-I've actually mixed up the pins for the keys in the fritzing (the go, reset, and 'Set/Run' keys should be on the left rather than the right), it's pretty obvious which keys are which if you read the code. 
+I haven't labelled keys in the fritzing but all it's pretty obvious which keys are which if you read the code. 
 
 In practice I'm getting power to the arduino by taking 12v in, using that to feed the VIN pin on the arduino so the arduino runs when it's plugged in and then using the relay to trigger the light. 
 
