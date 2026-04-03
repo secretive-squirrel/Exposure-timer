@@ -4,7 +4,8 @@ Uses keys to set a time in seconds, press go to start the exposure.
 This is a plan for a timer for alt printing. In this case a regular photographic timer has too short an exposure time, so I've set up an arduino with a 1602 LCD and a relay to turn on a 12v led light.
 Due to cut corners, and my having realised that cutting said corners actually made more sense than setting minutes and hours it is all in seconds. It will reliably give accurate times from one second to about a million seconds. (actually 0-999,999).
 
-![20260402_135725](https://github.com/user-attachments/assets/e162bfdd-16fd-40d7-a4a4-86c629b89c7c)
+![TimerRelay](https://github.com/user-attachments/assets/2e7a3578-e1aa-42be-9620-ac67dbf23bb7)
+
 
 I decided to use keyboard keys as I had them handy, they are functionally just regular momentary switches though. The project box was just something I had lying about. 
 The way it works right now is:
