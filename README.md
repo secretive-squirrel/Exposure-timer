@@ -7,7 +7,9 @@ Due to cut corners, and my having realised that cutting said corners actually ma
 ![20260402_135725](https://github.com/user-attachments/assets/9dd0d299-1f2e-4298-9d5c-bf6fa22b0f9a)
 
 I decided to use keyboard keys as I had them handy, they are functionally just regular momentary switches though. The project box was just something I had lying about. 
+
 The way it works right now is:
+
 When I flick the set/run switch to 'Set' it runs a loop allowing keystrokes on the numbers keys so I can enter a time of 0-9 for each key (single seconds, tens of seconds, hundreds, etc) with the numbers set to roll over to 0 in the case they go over or under 0-9. Reset will set all numbers to 0 (doesn't reset the arduino).
 
 When I've set the number I want for an exposure I flick the 'Set/Run' switch to 'Run' - At this point pressing 'go' will turn on the relay (allowing 12v to the LED strips) and then will count down to zero before switching off again and resetting the loop to go again. If 'Go' or 'Reset' is pressed while the light is running it'll just turn off the relay and reset the number to 0.
