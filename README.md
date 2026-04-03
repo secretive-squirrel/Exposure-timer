@@ -13,8 +13,12 @@ When I've set the number I want for an exposure I flick the 'Set/Run' switch to 
 
 ![TimerRelay](https://github.com/user-attachments/assets/7c80acc6-130b-4939-87f4-540a935dfb9c)
 
-I've actually mixed up the pins for the keys in the fritzing, it's pretty obvious which keys are which if you read the code. In practice I'm taking 12v in, using that to feed the VIN pin on the arduino so the arduino runs when it's plugged in and then using the relay to trigger the light.
+I've actually mixed up the pins for the keys in the fritzing (the go, reset, and 'Set/Run' keys should be on the left rather than the right), it's pretty obvious which keys are which if you read the code. 
 
-Ignoring the fact that this thing is a bit of a rat nest of wires on the inside, this is about the simplest exposure timer that I could make which will do everything I _need_ to have in an exposure timer. It would be more elegant to make a circuit board, but as a sheild it's OK and I should probably do something more elegant with the 'Go/Pause' button, but for now this is fine. 
+In practice I'm getting power to the arduino by taking 12v in, using that to feed the VIN pin on the arduino so the arduino runs when it's plugged in and then using the relay to trigger the light. 
+
+I'm using an i2c hat on the LCD, hence the four wires (I couldn't be bothered finding the correct image)
+
+Ignoring the fact that this thing is a bit of a rat nest of wires on the inside, this is about the simplest exposure timer that I could make which will do everything I _need_ to have in an exposure timer. It would be more elegant to make a circuit board, but as a sheild it's OK and I should probably do something more elegant with the functionality of the 'Go/Pause' button, but for now this is fine. 
 
 I may come back to making it more elegant but there's every chance this will turn into a permanent _temporary_ fix.
