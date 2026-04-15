@@ -1,5 +1,9 @@
 /*
     Dumbest possible Exposure timer
+    Secretive squirrel studios
+    https://secretivesquirrel.wordpress.com/2026/04/03/new-exposure-timer/
+    Free to use under MIT license, but I'd prefer to be credited.
+    
     Keys are Hh:Mm:Ss (10's, and 1's") for each Initial commit is all tens 
     
     The timer will run for 1-999999 seconds. About 12 days.
